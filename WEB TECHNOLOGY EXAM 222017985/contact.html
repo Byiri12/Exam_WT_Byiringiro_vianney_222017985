@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!-- Linking to external stylesheet -->
+  <link rel="stylesheet" type="text/css" href="style.css" title="style 1" media="screen, tv, projection, handheld, print"/>
+  <!-- Defining character encoding -->
+  <meta charset="utf-8">
+  <!-- Setting viewport for responsive design -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>OUR Contact Address</title>
+  <style>
+    /* Define your CSS styles here */
+    /* Normal link */
+    a {
+      padding: 10px;
+      color: white;
+      background-color: white;
+      text-decoration: none;
+      margin-right: 15px;
+    }
+
+    /* Visited link */
+    a:visited {
+      color: green;
+    }
+    /* Unvisited link */
+    a:link {
+      color: green; /* Changed to lowercase */
+    }
+    /* Hover effect */
+    a:hover {
+      background-color: white;
+    }
+
+    /* Active link */
+    a:active {
+      background-color: white;
+    }
+
+    /* Extend margin left for search button */
+    button.btn {
+      margin-left: 15px; /* Adjust this value as needed */
+      margin-top: 4px;
+    }
+    /* Extend margin left for search button */
+    input.form-control {
+      margin-left: 1300px; /* Adjust this value as needed */
+      padding: 8px;  
+    }
+    header {
+      background-color: #9067;
+      padding: 20px;
+    }
+    section {
+      padding:32px;
+    }
+    footer {
+      background-color: #9067;
+      padding: 20px;
+    }
+  </style>
+  <!-- JavaScript validation and content load for insert data-->
+  <script>
+    function confirmInsert() {
+      return confirm('Are you sure you want to insert this record?');
+    }
+  </script>
+</head>
+<body bgcolor="skyblue">
+<header>
+<body bgcolor="skyblue">
+  <form class="d-flex" role="search" action="search.php">
+      <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" name="query">
+      <button class="btn btn-outline-success" type="submit">Search</button>
+    </form>
+  <ul style="list-style-type: none; padding: 0;">
+    <li style="display: inline; margin-right: 10px;">
+       <img src="./images/Online-Voting.png" width="90" height="60" alt="Logo">
+    </li>
+    <li style="display: inline; margin-right: 10px;"><a href="./home.html">HOME</a></li>
+    <li style="display: inline; margin-right: 10px;"><a href="./about.html">ABOUT</a></li>
+    <li style="display: inline; margin-right: 10px;"><a href="./contact.html">CONTACT</a></li>
+    <li style="display: inline; margin-right: 10px;"><a href="./Comments.php">COMMENTS</a></li>
+    <li style="display: inline; margin-right: 10px;"><a href="./Favorites.php">FAVORITES</a></li>
+    <li style="display: inline; margin-right: 10px;"><a href="./Notifications.php">NOTIFICATIONS</a></li>
+    <li style="display: inline; margin-right: 10px;"><a href="./Options.php">OPTIONS</a></li>
+    <li style="display: inline; margin-right: 10px;"><a href="./Polls.php">POLLS</a></li>
+    <li style="display: inline; margin-right: 10px;"><a href="./Polls_tags.php">POLLS_TAGS</a></li>
+    <li style="display: inline; margin-right: 10px;"><a href="./Results.php">RESULTS</a></li>
+    <li style="display: inline; margin-right: 10px;"><a href="./Tags.php">TAGS</a></li>
+    <li style="display: inline; margin-right: 10px;"><a href="./Votes.php">VOTES</a></li>
+  
+    <li class="dropdown">
+      <a href="#" style="padding: 10px; color: white; background-color: green; text-decoration: none; margin-right: 15px;">Settings</a>
+      <div class="dropdown-contents">
+        <!-- Links inside the dropdown menu -->
+        <a href="login.html">Login</a>
+        <a href="register.html">Register</a>
+        <a href="logout.php">Logout</a>
+      </div>
+    </li>
+    <br><br>  
+  </ul>
+
+</header>
+<section>
+  <h2><bold><u> OUR CONTACT</u></bold></h2>
+  <ul></ul>
+  <li>Address: 250 Main Street, Kigali city, Rwanda</li>
+  <li>Phone: +250 734444666</li>
+  <li>Email: phyiro@gmail.com</li>
+  <li>X: phyiro</li>
+  <li>Facebook: phyiro</li>
+  <li>IG: phyiro250</li>
+   <li>website: www.croudvpf.org</li>
+</ul>
+
+<form action="submit_contact" method="POST">
+  <label for="name">Names:</label><br>
+  <input type="text" id="name" name="name" required><br>
+
+  <label for="email">Email:</label><br>
+  <input type="email" id="email" name="email" required><br>
+
+  <label for="phone">Telephone:</label><br>
+  <input type="tel" id="phone" name="phone"><br>
+
+  <label for="X">X:</label><br>
+  <input type="X" id="X" name="X"><br>
+
+  <label for="Ig">Instagram:</label><br>
+  <input type="Ig" id="Ig" name="Ig"><br>
+
+  <label for="Faceb">Facebook:</label><br>
+  <input type="Faceb" id="Faceb" name="Faceb"><br>
+
+<label for="web">website:</label><br>
+  <input type="web" id="web" name="web"><br>
+
+  <label for="message">Message:</label><br>
+  <textarea id="message" name="message" rows="4" required></textarea>
+
+  <input type="submit" value="send">
+</form>
+<p>Connect with us on social media or social networkings:
+
+  <a href="https://www.X.com/croudvpf">X</a>
+  <a href="https://www.facebook.com/croudvpf">Facebook</a>
+  <a href="https://www.ig.com/croudvpf">Instagram</a>
+  <a href="https://www.linkedin.com/croudvpf">LinkedIn</a>
+  <a href="https://www.croudvpf.org/croudvpf">Website</a>
+</p>
+</section>
+
+<footer>
+  <center> 
+    <b><h2>UR CBE BIT &copy, 2024 &reg222017985, Designer by: BYIRINGIRO VIANNEY</h2></b>
+  </center>
+</footer>
+
+</body>
+</html>
